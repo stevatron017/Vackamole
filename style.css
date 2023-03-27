@@ -1,0 +1,54 @@
+body{
+    background-image: url('grass.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url('mallet.png'), auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#score{
+    color: white; 
+    text-align: center;
+    font-size: 20pt;
+}
+
+.mole{
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 100px; 
+    background-color:rgb(50, 50, 50);
+    /* padding-top: 30px; */
+}
+
+.moles{
+    justify-content: space-around;
+    cursor: url('mallet.jpeg');
+
+    /* height: 50vw;  */
+}
+
+.row1{
+    justify-content: space-around;
+    display: flex; 
+    margin: 40px;
+    height: 100px;
+}
+
+.row2{
+    justify-content: space-around;
+    display: flex;
+    margin: 40px; 
+    height: 100px;
+}
+
+.row3{
+    justify-content: space-around;
+    display: flex;
+    margin: 40px; 
+    height: 100px;
+}
+
